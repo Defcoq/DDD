@@ -1,0 +1,43 @@
+﻿@using BanckAccountSystem.AppService.ViewModel
+@model IEnumerable<BankAccountView>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<table class="table table-striped table-bordered table-sm">
+    <tr>
+        <th class="text-right">Bank N°</th>
+        <th>Account Name</th>
+        <th class="text-center">Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td class="text-right">@item.BankAccountId</td>
+            <td>@item.CustomerRef</td>
+            <td class="text-center">
+                <form asp-action="Delete" method="post">
+                    <a asp-action="Edit" class="btn btn-sm btn-warning"
+                       asp-route-bankaccountId="@item.BankAccountId">
+                        Edit
+                    </a>
+                    <a asp-action="Deposit" class="btn btn-sm btn-primary"
+                       asp-route-bankaccountId="@item.BankAccountId">
+                        Deposit
+                    </a>
+                    <a asp-action="Transfert" class="btn btn-sm btn-success"
+                       asp-route-bankaccountId="@item.BankAccountId">
+                        Transfer Found 
+                    </a>
+
+                    <input type="hidden" name="BankAccountId" value="@item.BankAccountId" />
+                    <button type="submit" class="btn btn-danger btn-sm">
+                        Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+<div class="text-center">
+    <a asp-action="Create" class="btn btn-primary">Add Account</a>
+</div>

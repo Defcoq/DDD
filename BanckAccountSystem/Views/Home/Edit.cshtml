@@ -1,0 +1,17 @@
+﻿@model BankAccountView
+@{
+    ViewData["Title"] = "Edit";
+}
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="BankAccountId" />
+        <div class="form-group">
+            <label asp-for="CustomerRef"></label>
+            <input asp-for="CustomerRef" class="form-control" />
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" type="submit">Save</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+
