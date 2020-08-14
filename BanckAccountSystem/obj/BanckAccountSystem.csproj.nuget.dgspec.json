@@ -1,41 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem\\BanckAccountSystem.csproj": {}
+    "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem/BanckAccountSystem.csproj": {}
   },
   "projects": {
-    "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.AppService\\BanckAccountSystem.AppService.csproj": {
+    "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.AppService/BanckAccountSystem.AppService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.AppService\\BanckAccountSystem.AppService.csproj",
+        "projectUniqueName": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.AppService/BanckAccountSystem.AppService.csproj",
         "projectName": "BanckAccountSystem.AppService",
-        "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.AppService\\BanckAccountSystem.AppService.csproj",
-        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
-        "outputPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.AppService\\obj\\",
+        "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.AppService/BanckAccountSystem.AppService.csproj",
+        "packagesPath": "/Users/albertstarreveld/.nuget/packages/",
+        "outputPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.AppService/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/albertstarreveld/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Repository\\BanckAccountSystem.Repository.csproj": {
-                "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Repository\\BanckAccountSystem.Repository.csproj"
+              "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Repository/BanckAccountSystem.Repository.csproj": {
+                "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Repository/BanckAccountSystem.Repository.csproj"
               }
             }
           }
@@ -61,38 +52,35 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Model\\BanckAccountSystem.Model.csproj": {
+    "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Model/BanckAccountSystem.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Model\\BanckAccountSystem.Model.csproj",
+        "projectUniqueName": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Model/BanckAccountSystem.Model.csproj",
         "projectName": "BanckAccountSystem.Model",
-        "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Model\\BanckAccountSystem.Model.csproj",
-        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
-        "outputPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Model\\obj\\",
+        "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Model/BanckAccountSystem.Model.csproj",
+        "packagesPath": "/Users/albertstarreveld/.nuget/packages/",
+        "outputPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Model/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/albertstarreveld/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -117,45 +105,42 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Repository\\BanckAccountSystem.Repository.csproj": {
+    "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Repository/BanckAccountSystem.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Repository\\BanckAccountSystem.Repository.csproj",
+        "projectUniqueName": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Repository/BanckAccountSystem.Repository.csproj",
         "projectName": "BanckAccountSystem.Repository",
-        "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Repository\\BanckAccountSystem.Repository.csproj",
-        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
-        "outputPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Repository\\obj\\",
+        "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Repository/BanckAccountSystem.Repository.csproj",
+        "packagesPath": "/Users/albertstarreveld/.nuget/packages/",
+        "outputPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Repository/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/albertstarreveld/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Model\\BanckAccountSystem.Model.csproj": {
-                "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.Model\\BanckAccountSystem.Model.csproj"
+              "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Model/BanckAccountSystem.Model.csproj": {
+                "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.Model/BanckAccountSystem.Model.csproj"
               }
             }
           }
@@ -191,45 +176,42 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem\\BanckAccountSystem.csproj": {
+    "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem/BanckAccountSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem\\BanckAccountSystem.csproj",
+        "projectUniqueName": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem/BanckAccountSystem.csproj",
         "projectName": "BanckAccountSystem",
-        "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem\\BanckAccountSystem.csproj",
-        "packagesPath": "C:\\Users\\jpierre.deffofotso\\.nuget\\packages\\",
-        "outputPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem\\obj\\",
+        "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem/BanckAccountSystem.csproj",
+        "packagesPath": "/Users/albertstarreveld/.nuget/packages/",
+        "outputPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jpierre.deffofotso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/albertstarreveld/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.AppService\\BanckAccountSystem.AppService.csproj": {
-                "projectPath": "C:\\Worksapce\\MicroServices\\My tutorial on medium\\DDD\\BanckAccountSystem\\BanckAccountSystem.AppService\\BanckAccountSystem.AppService.csproj"
+              "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.AppService/BanckAccountSystem.AppService.csproj": {
+                "projectPath": "/Users/albertstarreveld/Documents/Code/why/DDD/BanckAccountSystem.AppService/BanckAccountSystem.AppService.csproj"
               }
             }
           }
@@ -266,10 +248,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }
