@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using BanckAccountSystem.Models;
 using BanckAccountSystem.AppService;
-using BanckAccountSystem.Model;
 using BanckAccountSystem.AppService.Messages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using BanckAccountSystem.AppService.ViewModel;
 
 namespace BanckAccountSystem.Controllers
@@ -21,6 +17,7 @@ namespace BanckAccountSystem.Controllers
         {
             _bankService = bankService;
         }
+        
         public IActionResult Index()
         {
             IList<BankAccountView> accounts = new List<BankAccountView>();
@@ -43,6 +40,7 @@ namespace BanckAccountSystem.Controllers
             BankAccountView accView = response.BankAccount;
             return View(accView);
         }
+        
         public ViewResult Transfer(Guid bankaccountId)
         {
             FindBankAccountResponse response = _bankService.GetBankAccountBy(bankaccountId);
@@ -57,10 +55,6 @@ namespace BanckAccountSystem.Controllers
         [HttpPost]
         public IActionResult Edit(BankAccountView vm)
         {
-
-           
-
-
             if (ModelState.IsValid)
             {
                 BankAccountCreateRequest createAccountRequest = new BankAccountCreateRequest();
@@ -73,6 +67,14 @@ namespace BanckAccountSystem.Controllers
                 // there is something wrong with the data values
                 return View(vm);
             }
+        }
+
+        [HttpPost]
+        public IActionResult Delete()
+        {
+            // Todo..
+            
+            return View("Index");
         }
 
         public IActionResult Privacy()
